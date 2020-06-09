@@ -305,3 +305,60 @@ header {
   background-position: center center;
   background-attachment: fixed;
 }
+
+/* CARTES */
+
+.cards{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  .card1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $background;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 50px;
+    h4{
+      font-family: $title-font;
+      font-size: 30px;
+      color: #fff;
+    }
+    p{
+      font-family: $text-font;
+      font-size: 20px;
+      color: #fff;
+    }
+    .logos{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .logos1 img{
+        width: 200px;
+        margin: 50px;
+      }
+      .logos2 img{
+        width: 200px;
+        margin: 50px;
+      }
+    }
+  }
+  .card2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $background;
+    border: 2px solid #fff;
+    h4{
+      font-family: $title-font;
+      font-size: 30px;
+      color: #fff;
+    }
+  }
+}
