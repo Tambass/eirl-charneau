@@ -188,4 +188,15 @@ header nav ul li a:hover {
 }
 
 /* PARALLAX 1 */
+.parallax {
+  width: 100%;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: url(images/piscine-bois.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
 /*# sourceMappingURL=style.css.map */
