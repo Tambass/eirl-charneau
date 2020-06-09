@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EIRL CHARNEAU</title>
+
+    <!--Icon title-bar-->
+
+    <link rel="icon" href="images/logo.png">
+
+    <!--Fonts-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Oswald:wght@200&display=swap"
+        rel="stylesheet">
+
+    <!--Icons-->
+
+    <script src="https://kit.fontawesome.com/c633fbfc2f.js" crossorigin="anonymous"></script>
+
+    <!--CAROUSEL CDN-->
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--HEADER/NAVBAR-->
+
+    <header>
+
+        <div class="header">
+            <a href="main.html"><img src="images/logo.png" alt="logo"></a>
+            <ul>
+                <li>
+                    <i class="fas fa-phone-alt"></i>
+                    01.02.03.04.05 |
+                </li>
+                <li>
+                    <i class="fas fa-at"></i>
+                    sylvain.charneau@gmail.com
+                </li>
+            </ul>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Présentation de l'entreprise</a></li>
+                <li><a href="#">Réalistations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!--MAIN-->
+
+    <main>
+
+        <!--CAROUSEL-->
+
+
+        <div class="carousel" data-flickity='{ "autoPlay": 2000 }'>
+
+            <div class="carousel-cell">
+                <img src="images/img1.jpg" alt="cuisine en bois" />
+            </div>
+
+            <div class="carousel-cell">
+                <img src="images/img2.jpg" alt="machine à bois" />
+            </div>
+
+            <div class="carousel-cell">
+                <img src="images/img3.jpg" alt="pose de parquet" />
+            </div>
+
+            <div class="carousel-cell">
+                <img src="images/img4.jpg" alt="terrase bois" />
+            </div>
+
+            <div class="carousel-cell">
+                <img src="images/img5.jpg" alt="ouverture interieur" />
+            </div>
+
+            <div class="carousel-cell">
+                <img src="images/img6.jpg" alt="ouverture exterieur" />
+            </div>
+
+            <div class="carousel-cell">
+                <img src="images/img7.jpg" alt="souche arbre" />
+            </div>
+
+        </div>
+
+        <!--VIGNETTES-->
+
+        <section class="vignettes">
+
+            <ul>
+
+                <li>
+                    <img src="images/window.png" alt="menuiserie">
+                    <h2>Menuiserie</h2>
+                </li>
+
+                <li>
+                    <img src="images/plan.png" alt="agencement interieur">
+                    <h2>Agencement Intérieur</h2>
+                </li>
+
+                <li>
+                    <img src="images/home.png" alt="agencement exterieur">
+                    <h2>Agencement Extérieur</h2>
+                </li>
+
+            </ul>
+
+        </section>
+
+        <!--ARTICLE PRÉSENTATION-->
+
+        <article class="factory">
+
+            <div class="image">
+                <img src="images/img8.jpg" alt="porte d'entrée">
+            </div>
+
+            <div class="description">
+
+                <h3>Eirl Charneau</h3>
+                <p>Fort de 15 ans d’expérience en menuiserie dont 10 ans en déplacement sur l’ensemble de la France pour
+                    différents chantiers,
+                    Sylvain CHARNEAU a décidé de s’installer en 2008 dans sa ville natale, Olonne-sur-Mer (85), en tant
+                    qu’artisan menuisier poseur.</p>
+                <p>Spécialisée dans la fabrication et l’agencement intérieur et extérieur sur mesure, l’entreprise
+                    EIRL CHARNEAU vous apporte tout son savoir-faire pour vous proposer les meilleures
+                    solutions pour tous vos travaux de menuiserie en neuf et rénovation.</p>
+                <p>Nous effectuons des travaux de qualité, avec sérieux et professionnalisme. Nous choisissons des
+                    fournisseurs qualifiés et compétents afin de vous apporter les meilleurs produits.</p>
+
+            </div>
+
+        </article>
+
+        <!--PARALLAX 1-->
+
+        <section class="parallax">
+            <img src="images/piscine-bois.jpg" alt="piscine en bois">
+        </section>
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <!--CAROUSEL SCRIPT-->
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <script>
+        var $carousel = $('.carousel').flickity({
+            imagesLoaded: true,
+            percentPosition: false,
+        });
+
+        var $imgs = $carousel.find('.carousel-cell img');
+        // get transform property
+        var docStyle = document.documentElement.style;
+        var transformProp = typeof docStyle.transform == 'string' ?
+            'transform' : 'WebkitTransform';
+        // get Flickity instance
+        var flkty = $carousel.data('flickity');
+
+        $carousel.on('scroll.flickity', function () {
+            flkty.slides.forEach(function (slide, i) {
+                var img = $imgs[i];
+                var x = (slide.target + flkty.x) * -1 / 3;
+                img.style[transformProp] = 'translateX(' + x + 'px)';
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>
