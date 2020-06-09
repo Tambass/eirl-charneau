@@ -130,6 +130,8 @@ header {
     align-items: center;
     background: $bg-article;
     .image{
+      display: flex;
+      align-items: center;
       width: 25%;
       img{
         width: 100%;
@@ -209,6 +211,8 @@ header {
     }
   }
   .image{
+    display: flex;
+    align-items: center;
     width: 25%;
     img{
       width: 100%;
