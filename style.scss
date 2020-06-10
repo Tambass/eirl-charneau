@@ -15,6 +15,7 @@ $background: #99621e;
 $titles: #247ba0;
 $links: #fa8334;
 $bg-nav: rgba(37, 37, 37, 0.8);
+$bg-footer: rgb(37, 37, 37);
 $bg-article: rgb(233, 233, 233);
 
 /*--- HEADER/NAVBAR ---*/
@@ -80,6 +81,11 @@ header {
     }
   }
 }
+
+
+
+
+
 
 /* --- MAIN --- */
 
@@ -373,23 +379,25 @@ header {
 
 /* FOOTER */
 
-footer .contact{
+/* section contact */
+
+footer .contact {
   height: 30vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  .contact-text{
-    h4{
+  .contact-text {
+    h4 {
       font-family: $title-font;
       font-size: 40px;
     }
-    h5{
+    h5 {
       font-family: $text-font;
       font-size: 20px;
     }
   }
-  .contact-button{
-    button{
+  .contact-button {
+    button {
       width: 250px;
       height: 70px;
       border: none;
@@ -402,11 +410,56 @@ footer .contact{
       font-family: $title-font;
       font-size: 20px;
       transition: 0.8s;
-      &:hover{
+      &:hover {
         background-color: $links;
         color: $titles;
-
       }
     }
+  }
+}
+
+/* Section coordonnées */
+
+footer .adress {
+  height: 30vh;
+  background-color: $background;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ul {
+    list-style: none;
+    li {
+      margin: 20px;
+      color: #fff;
+      font-family: $text-font;
+      font-size: 20px;
+      font-weight: bold;
+      h5{
+        font-family: $title-font;
+        font-size: 20px;
+      }
+      a{
+        text-decoration: none;
+        color: #fff;
+        &:hover{
+          color: $titles;
+        }
+      }
+    }
+  }
+}
+
+/* Section mentions légales */
+
+footer .mentions{
+  height: 8vh;
+  background-color: $bg-footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h6{
+    color: #fff;
+    font-family: $title-font;
+    font-size: 15px;
   }
 }

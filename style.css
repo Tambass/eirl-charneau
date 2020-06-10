@@ -508,6 +508,7 @@ header nav ul li a:hover {
 }
 
 /* FOOTER */
+/* section contact */
 footer .contact {
   height: 30vh;
   display: -webkit-box;
@@ -549,5 +550,67 @@ footer .contact .contact-button button {
 footer .contact .contact-button button:hover {
   background-color: #fa8334;
   color: #247ba0;
+}
+
+/* Section coordonnées */
+footer .adress {
+  height: 30vh;
+  background-color: #99621e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .adress ul {
+  list-style: none;
+}
+
+footer .adress ul li {
+  margin: 20px;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer .adress ul li h5 {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+}
+
+footer .adress ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .adress ul li a:hover {
+  color: #247ba0;
+}
+
+/* Section mentions légales */
+footer .mentions {
+  height: 8vh;
+  background-color: #252525;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .mentions h6 {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 15px;
 }
 /*# sourceMappingURL=style.css.map */
