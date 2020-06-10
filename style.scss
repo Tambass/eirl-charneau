@@ -370,3 +370,43 @@ header {
     }
   }
 }
+
+/* FOOTER */
+
+footer .contact{
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .contact-text{
+    h4{
+      font-family: $title-font;
+      font-size: 40px;
+    }
+    h5{
+      font-family: $text-font;
+      font-size: 20px;
+    }
+  }
+  .contact-button{
+    button{
+      width: 250px;
+      height: 70px;
+      border: none;
+      background-color: $background;
+      border-radius: 10px;
+      color: $links;
+      text-transform: uppercase;
+      font-weight: bold;
+      cursor: pointer;
+      font-family: $title-font;
+      font-size: 20px;
+      transition: 0.8s;
+      &:hover{
+        background-color: $links;
+        color: $titles;
+
+      }
+    }
+  }
+}

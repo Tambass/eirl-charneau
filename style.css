@@ -506,4 +506,48 @@ header nav ul li a:hover {
   height: 400px;
   counter-increment: carousel-cell;
 }
+
+/* FOOTER */
+footer .contact {
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .contact .contact-text h4 {
+  font-family: "Merriweather", serif;
+  font-size: 40px;
+}
+
+footer .contact .contact-text h5 {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+
+footer .contact .contact-button button {
+  width: 250px;
+  height: 70px;
+  border: none;
+  background-color: #99621e;
+  border-radius: 10px;
+  color: #fa8334;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+footer .contact .contact-button button:hover {
+  background-color: #fa8334;
+  color: #247ba0;
+}
 /*# sourceMappingURL=style.css.map */
