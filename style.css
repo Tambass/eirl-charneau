@@ -980,4 +980,45 @@ footer .mentions h6 {
   font-family: "Oswald", sans-serif;
   font-size: 25px;
 }
+
+/* SECTION ACTIVITÉS, PRODUITS ET SERVICES */
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 50px;
+}
+
+.services h4 {
+  font-size: 40px;
+  font-family: "Merriweather", serif;
+  border-bottom: 3px solid #99621e;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.services .listing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  padding: 50px;
+}
+
+.services .listing ul {
+  margin: 0 100px;
+  list-style-type: circle;
+}
+
+.services .listing ul li {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+}
 /*# sourceMappingURL=style.css.map */
