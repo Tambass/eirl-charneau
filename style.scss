@@ -676,6 +676,12 @@ footer .mentions{
   }
 }
 
+
+/* PAGE PRÉSENTATION */
+
+/* Séction présentation */
+
+
 .who{
   display: flex;
   justify-content: center;
@@ -730,5 +736,28 @@ footer .mentions{
       font-size: 20px;
       margin-bottom: 50px;
     }
+  }
+}
+
+/* Séction horaires */
+
+.hours{
+  margin: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .bulles{
+    margin-bottom: 150px;
+    img{
+      margin: 10px 100px;
+      width: 250px;
+      height: 250px;
+      border: 3px solid $bg-article;
+      border-radius: 100%;
+    }
+  }
+  .hours-details h3{
+    font-family: $title-font;
+    font-size: 20px;
   }
 }
