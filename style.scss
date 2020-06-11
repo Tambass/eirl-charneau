@@ -464,7 +464,7 @@ footer .mentions{
 }
 
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES  ACCUEIL*/
 
 
 @media screen and (max-width: 1420px){
@@ -673,5 +673,62 @@ footer .mentions{
   .navbar ul li a{
     font-size: 12px;
     font-weight: bold;
+  }
+}
+
+.who{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  background-color: $bg-article;
+  .album{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    #pic1{
+      border: 5px solid $background;
+      border-radius: 15px;
+      z-index: 1;
+    }
+    #pic2{
+      margin-left: -600px;
+      margin-top: 500px;
+      border: 5px solid $background;
+      border-radius: 15px;
+      z-index: 2;
+    }
+    #pic3{
+      margin-left:200px;
+      margin-bottom: 500px;
+      border: 5px solid $background;
+      border-radius: 15px;
+    }
+  }
+  .who-am-i{
+    width: 50%;
+    text-align: center;
+    h1{
+      font-family: $title-font;
+      font-size: 40px;
+      text-transform: uppercase;
+      border-bottom: 3px solid $background;
+      border-radius: 15px;
+      margin-bottom: 50px;
+    }
+    h2{
+      font-family: $title-font;
+      font-size: 30px;
+      text-transform: uppercase;
+      border-bottom: 3px solid $background;
+      border-radius: 15px;
+      margin-bottom: 50px;
+    }
+    p{
+      font-family: $text-font;
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
   }
 }
