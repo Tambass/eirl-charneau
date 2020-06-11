@@ -639,7 +639,10 @@ footer .mentions h6 {
   article .description p {
     font-size: 20px !important;
   }
-  article .description .liste1, article .description .liste2, article .description .liste3, article .description .liste4 ul li {
+  article .description .liste1,
+  article .description .liste2,
+  article .description .liste3,
+  article .description .liste4 ul li {
     font-size: 20px !important;
   }
 }
@@ -759,7 +762,8 @@ footer .mentions h6 {
   article .listes ul li {
     font-size: 20px !important;
   }
-  article .liste1, article .liste2 {
+  article .liste1,
+  article .liste2 {
     margin-bottom: 30px;
   }
 }
@@ -790,7 +794,10 @@ footer .mentions h6 {
 }
 
 @media screen and (max-width: 645px) {
-  article .listes .liste1 ul li, article .listes .liste2 ul li, article .listes .liste3 ul li, article .listes .liste4 ul li {
+  article .listes .liste1 ul li,
+  article .listes .liste2 ul li,
+  article .listes .liste3 ul li,
+  article .listes .liste4 ul li {
     font-size: 15px !important;
   }
   .contact {
@@ -819,7 +826,10 @@ footer .mentions h6 {
 }
 
 @media screen and (max-width: 570px) {
-  article .listes .liste1 ul li, article .listes .liste2 ul li, article .listes .liste3 ul li, article .listes .liste4 ul li {
+  article .listes .liste1 ul li,
+  article .listes .liste2 ul li,
+  article .listes .liste3 ul li,
+  article .listes .liste4 ul li {
     font-size: 10px !important;
   }
 }
@@ -1020,5 +1030,72 @@ footer .mentions h6 {
 .services .listing ul li {
   font-family: "Oswald", sans-serif;
   font-size: 18px;
+}
+
+/* PAGE RÉALISATIONS */
+.rea-title {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rea-title h1 {
+  font-family: "Merriweather", serif;
+  font-size: 50px;
+  border-bottom: 3px solid #99621e;
+  border-radius: 10px;
+}
+
+/* Séction photos */
+.rea-photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 150px;
+}
+
+.rea-photos::before {
+  z-index: -1;
+  display: block;
+  content: '';
+  position: absolute;
+  top: 55%;
+  left: 300px;
+  right: 300px;
+  height: 1px;
+  margin-top: -1px;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-color: inherit;
+}
+
+.rea-photos .w3-bar button {
+  margin: 50px 250px;
+  border: 3px solid #99621e;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  cursor: pointer;
+  outline: none;
+  font-family: "Merriweather", serif;
+}
+
+.rea-photos .w3-bar button:active {
+  background-color: #99621e;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

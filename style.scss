@@ -433,14 +433,14 @@ footer .adress {
       font-family: $text-font;
       font-size: 20px;
       font-weight: bold;
-      h5{
+      h5 {
         font-family: $title-font;
         font-size: 20px;
       }
-      a{
+      a {
         text-decoration: none;
         color: #fff;
-        &:hover{
+        &:hover {
           color: $titles;
         }
       }
@@ -450,117 +450,118 @@ footer .adress {
 
 /* Section mentions légales */
 
-footer .mentions{
+footer .mentions {
   height: 8vh;
   background-color: $bg-footer;
   display: flex;
   justify-content: center;
   align-items: center;
-  h6{
+  h6 {
     color: #fff;
     font-family: $title-font;
     font-size: 15px;
   }
 }
 
-
 /* MEDIA QUERIES  ACCUEIL*/
 
-
-@media screen and (max-width: 1420px){
-  .cards .card1{
-    .logos img{
+@media screen and (max-width: 1420px) {
+  .cards .card1 {
+    .logos img {
       width: 150px !important;
     }
   }
 }
-@media screen and (max-width: 1245px){
-  .navbar ul li a{
+@media screen and (max-width: 1245px) {
+  .navbar ul li a {
     font-size: 25px;
   }
-  .cards .card1{
-    .logos img{
+  .cards .card1 {
+    .logos img {
       width: 100px !important;
     }
   }
-  article{
-    .description{
-      h3{
+  article {
+    .description {
+      h3 {
         font-size: 30px !important;
       }
-      p{
+      p {
         font-size: 20px !important;
       }
-      .liste1, .liste2, .liste3, .liste4 ul li{
+      .liste1,
+      .liste2,
+      .liste3,
+      .liste4 ul li {
         font-size: 20px !important;
       }
     }
   }
 }
-@media screen and (max-width: 1085px){
-  .header{
+@media screen and (max-width: 1085px) {
+  .header {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
   }
-  .navbar ul li a{
+  .navbar ul li a {
     font-size: 20px;
   }
-  .vignettes{
+  .vignettes {
     display: flex;
     justify-content: center;
   }
-  .vignettes ul li{
-    img{
+  .vignettes ul li {
+    img {
       width: 100px !important;
     }
-    h2{
+    h2 {
       font-size: 15px;
     }
   }
-  .cards{
-    h4{
+  .cards {
+    h4 {
       font-size: 25px !important;
     }
-    p{
+    p {
       font-size: 15px !important;
     }
   }
 }
-@media screen and (max-width: 1020px){
-  .cards{
+@media screen and (max-width: 1020px) {
+  .cards {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 200px;
-    .card1{
+    .card1 {
       width: 100% !important;
-      .logos img{
+      .logos img {
         width: 100px !important;
       }
     }
-    .card2{
+    .card2 {
       width: 100% !important;
       padding: 50px;
     }
   }
 }
-@media screen and (max-width: 970px){
-  .navbar ul li a{
+@media screen and (max-width: 970px) {
+  .navbar ul li a {
     padding: 2px 5px;
   }
-  .contact{
-    .contact-text{
-      h4{
+  .contact {
+    .contact-text {
+      h4 {
         font-size: 30px !important;
       }
-      h5{
+      h5 {
         font-size: 15px !important;
       }
     }
-    .contact-button{
-      button{
+    .contact-button {
+      button {
         width: 170px !important;
         height: 50px !important;
         font-size: 15px !important;
@@ -568,154 +569,158 @@ footer .mentions{
     }
   }
 }
-@media screen and (max-width: 890px){
-  .navbar ul li a{
+@media screen and (max-width: 890px) {
+  .navbar ul li a {
     font-size: 17px;
   }
-  .vignettes{
+  .vignettes {
     margin-top: 200px;
     margin-bottom: 200px;
   }
-  .vignettes ul{
+  .vignettes ul {
     display: flex;
     flex-direction: column;
-    li{
+    li {
       padding: 50px;
     }
   }
-  article{
+  article {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
-    .listes ul li{
+    .listes ul li {
       font-size: 20px !important;
     }
-    .liste1, .liste2{
+    .liste1,
+    .liste2 {
       margin-bottom: 30px;
     }
-
   }
 }
-@media screen and (max-width: 840px){
-  .cards{
+@media screen and (max-width: 840px) {
+  .cards {
     margin-bottom: 300px;
   }
-  .mentions h6{
+  .mentions h6 {
     font-size: 10px !important;
   }
 }
-@media screen and (max-width: 810px){
-  .header ul{
+@media screen and (max-width: 810px) {
+  .header ul {
     display: flex;
     text-align: center;
     flex-direction: column;
   }
-  .navbar ul li a{
+  .navbar ul li a {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 645px){
-  article .listes{
-    .liste1, .liste2, .liste3, .liste4{
-      ul li{
+@media screen and (max-width: 645px) {
+  article .listes {
+    .liste1,
+    .liste2,
+    .liste3,
+    .liste4 {
+      ul li {
         font-size: 15px !important;
       }
     }
   }
-  .contact{
+  .contact {
     margin-top: 400px;
-    .contact-text{
-      h4{
+    .contact-text {
+      h4 {
         font-size: 20px !important;
       }
-      h5{
+      h5 {
         font-size: 10px !important;
       }
     }
-    .contact-button{
-      button{
+    .contact-button {
+      button {
         width: 150px !important;
         height: 30px !important;
         font-size: 10px !important;
       }
     }
   }
-  .adress{
-    a img{
+  .adress {
+    a img {
       width: 150px;
     }
-    ul li{
+    ul li {
       font-size: 10px !important;
-      h5{
+      h5 {
         font-size: 15px !important;
       }
     }
   }
 }
-@media screen and (max-width: 570px){
-  article .listes{
-    .liste1, .liste2, .liste3, .liste4{
-      ul li{
+@media screen and (max-width: 570px) {
+  article .listes {
+    .liste1,
+    .liste2,
+    .liste3,
+    .liste4 {
+      ul li {
         font-size: 10px !important;
       }
     }
   }
 }
-@media screen and (max-width: 540px){
-  .navbar ul li{
+@media screen and (max-width: 540px) {
+  .navbar ul li {
     padding: 0;
   }
-  .mentions h6{
+  .mentions h6 {
     font-size: 8px !important;
   }
 }
-@media screen and (max-width: 380px){
-  .navbar ul li a{
+@media screen and (max-width: 380px) {
+  .navbar ul li a {
     font-size: 12px;
     font-weight: bold;
   }
 }
 
-
 /* PAGE PRÉSENTATION */
 
 /* Séction présentation */
 
-
-.who{
+.who {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 80px;
   background-color: $bg-article;
-  .album{
+  .album {
     width: 50%;
     display: flex;
     align-items: center;
     margin-left: 80px;
-    #pic1{
+    #pic1 {
       border: 5px solid $bg-article;
       border-radius: 15px;
       z-index: 1;
     }
-    #pic2{
+    #pic2 {
       margin-left: -600px;
       margin-top: 500px;
       border: 5px solid $bg-article;
       border-radius: 15px;
       z-index: 2;
     }
-    #pic3{
-      margin-left:200px;
+    #pic3 {
+      margin-left: 200px;
       margin-bottom: 500px;
       border: 5px solid transparent;
       border-radius: 15px;
     }
   }
-  .who-am-i{
+  .who-am-i {
     width: 50%;
     text-align: center;
-    h1{
+    h1 {
       font-family: $title-font;
       font-size: 40px;
       text-transform: uppercase;
@@ -723,7 +728,7 @@ footer .mentions{
       border-radius: 15px;
       margin-bottom: 50px;
     }
-    h2{
+    h2 {
       font-family: $title-font;
       font-size: 30px;
       text-transform: uppercase;
@@ -731,7 +736,7 @@ footer .mentions{
       border-radius: 15px;
       margin-bottom: 50px;
     }
-    p{
+    p {
       font-family: $text-font;
       font-size: 20px;
       margin-bottom: 50px;
@@ -741,14 +746,14 @@ footer .mentions{
 
 /* Séction horaires */
 
-.hours{
+.hours {
   margin: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  .bulles{
+  .bulles {
     margin-bottom: 150px;
-    img{
+    img {
       margin: 10px 100px;
       width: 250px;
       height: 250px;
@@ -756,7 +761,7 @@ footer .mentions{
       border-radius: 100%;
     }
   }
-  .hours-details h3{
+  .hours-details h3 {
     font-family: $title-font;
     font-size: 20px;
   }
@@ -764,22 +769,22 @@ footer .mentions{
 
 /* Certificat dans parallax2 */
 
-#certificate{
+#certificate {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  img{
+  img {
     width: 150px;
   }
-  .valeur{
+  .valeur {
     text-align: center;
-    h4{
+    h4 {
       font-family: $title-font;
       font-size: 40px;
       border-bottom: 3px solid $background;
       border-radius: 15px;
     }
-    p{
+    p {
       font-family: $text-font;
       font-size: 25px;
     }
@@ -788,29 +793,81 @@ footer .mentions{
 
 /* SECTION ACTIVITÉS, PRODUITS ET SERVICES */
 
-.services{
+.services {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 50px;
-  h4{
+  h4 {
     font-size: 40px;
     font-family: $title-font;
     border-bottom: 3px solid $background;
     border-radius: 10px;
     padding: 10px;
   }
-  .listing{
+  .listing {
     display: flex;
     margin-top: 20px;
     padding: 50px;
-    ul{
+    ul {
       margin: 0 100px;
       list-style-type: circle;
-      li{
+      li {
         font-family: $text-font;
         font-size: 18px;
       }
+    }
+  }
+}
+
+/* PAGE RÉALISATIONS */
+
+.rea-title {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-family: $title-font;
+    font-size: 50px;
+    border-bottom: 3px solid $background;
+    border-radius: 10px;
+  }
+}
+
+/* Séction photos */
+
+.rea-photos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 150px;
+  &::before{
+    z-index: -1;
+    display: block;
+    content: '';
+    position: absolute;
+    top: 55%;
+    left: 300px;
+    right: 300px;
+    height: 1px;
+    margin-top: -1px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-color: inherit;
+  }
+  .w3-bar button {
+    margin: 50px 250px;
+    border: 3px solid $background;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    outline: none;
+    font-family: $title-font;
+    &:active {
+      background-color: $background;
+      color: #fff;
     }
   }
 }

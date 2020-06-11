@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EIRL CHARNEAU</title>
+
+    <!--Icon title-bar-->
+
+    <link rel="icon" href="images/logo.png">
+
+    <!--Fonts-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Oswald:wght@200&display=swap"
+        rel="stylesheet">
+
+    <!--Icons-->
+
+    <script src="https://kit.fontawesome.com/c633fbfc2f.js" crossorigin="anonymous"></script>
+
+    <!--CAROUSEL CDN-->
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!--HEADER/NAVBAR-->
+
+    <header>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="factory.html">Présentation de l'entreprise</a></li>
+                <li><a href="réalistations.html">Réalistations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header">
+            <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+            <ul>
+                <li>
+                    <i class="fas fa-phone-alt"></i>
+                    01.02.03.04.05 |
+                </li>
+                <li>
+                    <i class="fas fa-at"></i>
+                    sylvain.charneau@gmail.com
+                </li>
+            </ul>
+        </div>
+
+    </header>
+
+    <!--MAIN-->
+
+    <main>
+
+        <section class="rea-title">
+
+            <h1>Nos réalisations</h1>
+
+        </section>
+
+        <section class="rea-photos">
+
+            <div class="w3-bar w3-black">
+                <button class="w3-bar-item w3-button active" onclick="openCity('London')">Intérieur</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Exterieur</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Menuiserie</button>
+            </div>
+
+            <div id="London" class="w3-container w3-display-container city">
+                
+                <h2>Réalisations Intérieur</h2>
+                <p>London is the capital city of England.</p>
+            </div>
+
+            <div id="Paris" class="w3-container w3-display-container city" style="display:none">
+                
+                <h2>Réalisations Extérieur</h2>
+                <p>Paris is the capital of France.</p>
+            </div>
+
+            <div id="Tokyo" class="w3-container w3-display-container city" style="display:none">
+                
+                <h2>Les Menuiseries</h2>
+                <p>Tokyo is the capital of Japan.</p>
+            </div>
+
+        </section>
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+    <!--FOOTER-->
+
+    <footer>
+
+        <!--Section coordonnées-->
+
+        <section class="adress">
+
+            <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+
+            <ul>
+                <li>
+                    <h5>Bureau</h5>
+                </li>
+                <li><i class="fas fa-home"></i> 3 rue des Abeilles, 85340 OLONNE SUR MER</li>
+                <li><i class="fas fa-phone-alt"></i> 01.02.03.04.05</li>
+                <li><i class="fas fa-at"></i><a href="#"> sylvain.charneau@gmail.com</a></li>
+            </ul>
+
+        </section>
+
+        <!--Section mentions légales-->
+
+        <section class="mentions">
+
+            <h6>Menuiserie CHARNEAU @2008 - Politique de confidentialité | Mentions légales | Réalisation TamCodeur.com
+            </h6>
+
+        </section>
+
+
+    </footer>
+
+
+
+    <!--SCRIPT ONGLETS-->
+
+    <script>
+        function openCity(cityName) {
+            var i;
+            var x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(cityName).style.display = "block";
+        }
+    </script>
+
+
+</body>
+
+</html>
