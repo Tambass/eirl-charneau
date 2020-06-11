@@ -83,7 +83,7 @@ header {
 }
 
 
-
+/* MEDIA QUERIES */
 
 
 @media screen and (max-width: 1420px){
@@ -152,13 +152,15 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 300px 0;
-    .cards .card1{
+    margin-bottom: 200px;
+    .card1{
+      width: 100% !important;
       .logos img{
         width: 100px !important;
       }
     }
     .card2{
+      width: 100% !important;
       padding: 50px;
     }
   }
@@ -166,6 +168,23 @@ header {
 @media screen and (max-width: 970px){
   .navbar ul li a{
     padding: 2px 5px;
+  }
+  .contact{
+    .contact-text{
+      h4{
+        font-size: 30px !important;
+      }
+      h5{
+        font-size: 15px !important;
+      }
+    }
+    .contact-button{
+      button{
+        width: 170px !important;
+        height: 50px !important;
+        font-size: 15px !important;
+      }
+    }
   }
 }
 @media screen and (max-width: 890px){
@@ -216,6 +235,24 @@ header {
     .liste1, .liste2, .liste3, .liste4{
       ul li{
         font-size: 15px !important;
+      }
+    }
+  }
+  .contact{
+    margin-top: 400px;
+    .contact-text{
+      h4{
+        font-size: 20px !important;
+      }
+      h5{
+        font-size: 10px !important;
+      }
+    }
+    .contact-button{
+      button{
+        width: 150px !important;
+        height: 30px !important;
+        font-size: 10px !important;
       }
     }
   }
