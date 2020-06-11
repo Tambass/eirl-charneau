@@ -123,9 +123,31 @@ header nav ul li a:hover {
   }
 }
 
+@media screen and (max-width: 970px) {
+  .navbar ul li a {
+    padding: 2px 5px;
+  }
+}
+
 @media screen and (max-width: 890px) {
   .navbar ul li a {
     font-size: 17px;
+  }
+  .vignettes {
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+  .vignettes ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .vignettes ul li {
+    padding: 50px;
   }
 }
 

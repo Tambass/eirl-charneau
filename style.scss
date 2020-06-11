@@ -106,12 +106,28 @@ header {
     }
     h2{
       font-size: 15px;
-      }
     }
   }
+}
+@media screen and (max-width: 970px){
+  .navbar ul li a{
+    padding: 2px 5px;
+  }
+}
 @media screen and (max-width: 890px){
   .navbar ul li a{
     font-size: 17px;
+  }
+  .vignettes{
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+  .vignettes ul{
+    display: flex;
+    flex-direction: column;
+    li{
+      padding: 50px;
+    }
   }
 }
 @media screen and (max-width: 810px){
