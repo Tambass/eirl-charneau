@@ -107,11 +107,19 @@ header nav ul li a:hover {
   .navbar ul li a {
     font-size: 20px;
   }
-  .vignettes ul li h2 {
-    font-size: 15px;
+  .vignettes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .vignettes ul li img {
-    width: 90px;
+    width: 100px !important;
+  }
+  .vignettes ul li h2 {
+    font-size: 15px;
   }
 }
 

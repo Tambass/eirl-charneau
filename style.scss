@@ -96,15 +96,19 @@ header {
   .navbar ul li a{
     font-size: 20px;
   }
+  .vignettes{
+    display: flex;
+    justify-content: center;
+  }
   .vignettes ul li{
+    img{
+      width: 100px !important;
+    }
     h2{
       font-size: 15px;
-    }
-    img{
-      width: 90px;
+      }
     }
   }
-}
 @media screen and (max-width: 890px){
   .navbar ul li a{
     font-size: 17px;
