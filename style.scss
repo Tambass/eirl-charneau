@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html{
+  font-size: 62.5%;
+}
+
 /*--- FONTS---*/
 
 $title-font: "Merriweather", serif;
@@ -41,7 +45,7 @@ header {
       margin-left: 20px;
       list-style: none;
       li {
-        font-size: 30px;
+        font-size: 3rem;
         font-family: $title-font;
         color: $links;
         margin-right: 20px;
@@ -61,7 +65,7 @@ header {
       z-index: 1;
       li {
         padding: 2px 10px;
-        font-size: 30px;
+        font-size: 3rem;
         a {
           font-family: $title-font;
           text-decoration: none;
@@ -120,7 +124,7 @@ header {
     list-style: none;
     li {
       font-family: $title-font;
-      font-size: 20px;
+      font-size: 2rem;
       margin: 0 100px;
       img {
         width: 150px;
@@ -154,7 +158,7 @@ header {
     padding: 0 50px;
     margin-bottom: 50px;
     h3 {
-      font-size: 50px;
+      font-size: 5rem;
       font-family: $title-font;
       text-transform: uppercase;
       margin-bottom: 50px;
@@ -163,7 +167,7 @@ header {
       border-radius: 5px;
     }
     p {
-      font-size: 30px;
+      font-size: 3rem;
       font-family: $text-font;
     }
   }
@@ -198,7 +202,7 @@ header {
     text-align: center;
     padding: 0 50px;
     h3 {
-      font-size: 50px;
+      font-size: 5rem;
       font-family: $title-font;
       text-transform: uppercase;
       margin-bottom: 50px;
@@ -207,7 +211,7 @@ header {
       border-radius: 5px;
     }
     p {
-      font-size: 30px;
+      font-size: 3rem;
       font-family: $text-font;
     }
     .listes {
@@ -220,7 +224,7 @@ header {
         display: flex;
         flex-direction: column;
         li {
-          font-size: 25px;
+          font-size: 2.5rem;
           font-family: $text-font;
         }
         i {
@@ -264,7 +268,7 @@ header {
     text-align: center;
     padding: 0 50px;
     h3 {
-      font-size: 50px;
+      font-size: 5rem;
       font-family: $title-font;
       text-transform: uppercase;
       margin-bottom: 50px;
@@ -273,7 +277,7 @@ header {
       border-radius: 5px;
     }
     p {
-      font-size: 30px;
+      font-size: 3rem;
       font-family: $text-font;
     }
     .listes {
@@ -283,7 +287,7 @@ header {
       text-align: left;
       ul {
         li {
-          font-size: 25px;
+          font-size: 2.5rem;
           font-family: $text-font;
         }
         list-style: none;
@@ -328,12 +332,12 @@ header {
     padding: 50px;
     h4 {
       font-family: $title-font;
-      font-size: 30px;
+      font-size: 3rem;
       color: #fff;
     }
     p {
       font-family: $text-font;
-      font-size: 20px;
+      font-size: 2rem;
       color: #fff;
     }
     .logos {
@@ -361,7 +365,7 @@ header {
     border: 2px solid #fff;
     h4 {
       font-family: $title-font;
-      font-size: 30px;
+      font-size: 3rem;
       color: #fff;
     }
     .carousel {
@@ -388,11 +392,11 @@ footer .contact {
   .contact-text {
     h4 {
       font-family: $title-font;
-      font-size: 40px;
+      font-size: 4rem;
     }
     h5 {
       font-family: $text-font;
-      font-size: 20px;
+      font-size: 2rem;
     }
   }
   .contact-button {
@@ -407,7 +411,7 @@ footer .contact {
       font-weight: bold;
       cursor: pointer;
       font-family: $title-font;
-      font-size: 20px;
+      font-size: 2rem;
       transition: 0.8s;
       &:hover {
         background-color: $links;
@@ -431,11 +435,11 @@ footer .adress {
       margin: 20px;
       color: #fff;
       font-family: $text-font;
-      font-size: 20px;
+      font-size: 2rem;
       font-weight: bold;
       h5 {
         font-family: $title-font;
-        font-size: 20px;
+        font-size: 2rem;
       }
       a {
         text-decoration: none;
@@ -459,7 +463,7 @@ footer .mentions {
   h6 {
     color: #fff;
     font-family: $title-font;
-    font-size: 15px;
+    font-size: 1.5rem;
   }
 }
 
@@ -474,7 +478,7 @@ footer .mentions {
 }
 @media screen and (max-width: 1245px) {
   .navbar ul li a {
-    font-size: 25px;
+    font-size: 2.5rem;
   }
   .cards .card1 {
     .logos img {
@@ -484,16 +488,16 @@ footer .mentions {
   article {
     .description {
       h3 {
-        font-size: 30px !important;
+        font-size: 3rem !important;
       }
       p {
-        font-size: 20px !important;
+        font-size: 2rem !important;
       }
       .liste1,
       .liste2,
       .liste3,
       .liste4 ul li {
-        font-size: 20px !important;
+        font-size: 2rem !important;
       }
     }
   }
@@ -505,7 +509,7 @@ footer .mentions {
     margin-bottom: 20px;
   }
   .navbar ul li a {
-    font-size: 20px;
+    font-size: 2rem;
   }
   .vignettes {
     display: flex;
@@ -516,15 +520,15 @@ footer .mentions {
       width: 100px !important;
     }
     h2 {
-      font-size: 15px;
+      font-size: 1.5rem;
     }
   }
   .cards {
     h4 {
-      font-size: 25px !important;
+      font-size: 2.5rem !important;
     }
     p {
-      font-size: 15px !important;
+      font-size: 1.5rem !important;
     }
   }
 }
@@ -554,24 +558,24 @@ footer .mentions {
   .contact {
     .contact-text {
       h4 {
-        font-size: 30px !important;
+        font-size: 3rem !important;
       }
       h5 {
-        font-size: 15px !important;
+        font-size: 1.5rem !important;
       }
     }
     .contact-button {
       button {
         width: 170px !important;
         height: 50px !important;
-        font-size: 15px !important;
+        font-size: 1.5rem !important;
       }
     }
   }
 }
 @media screen and (max-width: 890px) {
   .navbar ul li a {
-    font-size: 17px;
+    font-size: 1.7rem;
   }
   .vignettes {
     margin-top: 200px;
@@ -589,7 +593,7 @@ footer .mentions {
     flex-direction: column;
     padding-top: 20px;
     .listes ul li {
-      font-size: 20px !important;
+      font-size: 2rem !important;
     }
     .liste1,
     .liste2 {
@@ -602,7 +606,7 @@ footer .mentions {
     margin-bottom: 300px;
   }
   .mentions h6 {
-    font-size: 10px !important;
+    font-size: 1rem !important;
   }
 }
 @media screen and (max-width: 810px) {
@@ -612,7 +616,7 @@ footer .mentions {
     flex-direction: column;
   }
   .navbar ul li a {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 645px) {
@@ -622,7 +626,7 @@ footer .mentions {
     .liste3,
     .liste4 {
       ul li {
-        font-size: 15px !important;
+        font-size: 1.5rem !important;
       }
     }
   }
@@ -630,17 +634,17 @@ footer .mentions {
     margin-top: 400px;
     .contact-text {
       h4 {
-        font-size: 20px !important;
+        font-size: 2rem !important;
       }
       h5 {
-        font-size: 10px !important;
+        font-size: 1rem !important;
       }
     }
     .contact-button {
       button {
         width: 150px !important;
         height: 30px !important;
-        font-size: 10px !important;
+        font-size: 1rem !important;
       }
     }
   }
@@ -649,9 +653,9 @@ footer .mentions {
       width: 150px;
     }
     ul li {
-      font-size: 10px !important;
+      font-size: 1rem !important;
       h5 {
-        font-size: 15px !important;
+        font-size: 1.5rem !important;
       }
     }
   }
@@ -663,7 +667,7 @@ footer .mentions {
     .liste3,
     .liste4 {
       ul li {
-        font-size: 10px !important;
+        font-size: 1rem !important;
       }
     }
   }
@@ -673,12 +677,12 @@ footer .mentions {
     padding: 0;
   }
   .mentions h6 {
-    font-size: 8px !important;
+    font-size: 0.8rem !important;
   }
 }
 @media screen and (max-width: 380px) {
   .navbar ul li a {
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: bold;
   }
 }
@@ -722,7 +726,7 @@ footer .mentions {
     text-align: center;
     h1 {
       font-family: $title-font;
-      font-size: 40px;
+      font-size: 4rem;
       text-transform: uppercase;
       border-bottom: 3px solid $background;
       border-radius: 15px;
@@ -730,7 +734,7 @@ footer .mentions {
     }
     h2 {
       font-family: $title-font;
-      font-size: 30px;
+      font-size: 3rem;
       text-transform: uppercase;
       border-bottom: 3px solid $background;
       border-radius: 15px;
@@ -738,7 +742,7 @@ footer .mentions {
     }
     p {
       font-family: $text-font;
-      font-size: 20px;
+      font-size: 2rem;
       margin-bottom: 50px;
     }
   }
@@ -763,7 +767,7 @@ footer .mentions {
   }
   .hours-details h3 {
     font-family: $title-font;
-    font-size: 20px;
+    font-size: 2rem;
   }
 }
 
@@ -780,13 +784,13 @@ footer .mentions {
     text-align: center;
     h4 {
       font-family: $title-font;
-      font-size: 40px;
+      font-size: 4rem;
       border-bottom: 3px solid $background;
       border-radius: 15px;
     }
     p {
       font-family: $text-font;
-      font-size: 25px;
+      font-size: 2.5rem;
     }
   }
 }
@@ -799,7 +803,7 @@ footer .mentions {
   flex-direction: column;
   padding: 50px;
   h4 {
-    font-size: 40px;
+    font-size: 4rem;
     font-family: $title-font;
     border-bottom: 3px solid $background;
     border-radius: 10px;
@@ -814,7 +818,7 @@ footer .mentions {
       list-style-type: circle;
       li {
         font-family: $text-font;
-        font-size: 18px;
+        font-size: 1.8rem;
       }
     }
   }
@@ -829,7 +833,7 @@ footer .mentions {
   align-items: center;
   h1 {
     font-family: $title-font;
-    font-size: 50px;
+    font-size: 5rem;
     border-bottom: 3px solid $background;
     border-radius: 10px;
   }

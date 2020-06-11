@@ -6,6 +6,10 @@
           box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 /*--- FONTS---*/
 /*--- COLORS ---*/
 /*--- HEADER/NAVBAR ---*/
@@ -41,7 +45,7 @@ header .header ul {
 }
 
 header .header ul li {
-  font-size: 30px;
+  font-size: 3rem;
   font-family: "Merriweather", serif;
   color: #fa8334;
   margin-right: 20px;
@@ -66,7 +70,7 @@ header nav ul {
 
 header nav ul li {
   padding: 2px 10px;
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 header nav ul li a {
@@ -136,7 +140,7 @@ header nav ul li a:hover {
 
 .vignettes ul li {
   font-family: "Merriweather", serif;
-  font-size: 20px;
+  font-size: 2rem;
   margin: 0 100px;
 }
 
@@ -189,7 +193,7 @@ header nav ul li a:hover {
 }
 
 .factory .description h3 {
-  font-size: 50px;
+  font-size: 5rem;
   font-family: "Merriweather", serif;
   text-transform: uppercase;
   margin-bottom: 50px;
@@ -199,7 +203,7 @@ header nav ul li a:hover {
 }
 
 .factory .description p {
-  font-size: 30px;
+  font-size: 3rem;
   font-family: "Oswald", sans-serif;
 }
 
@@ -246,7 +250,7 @@ header nav ul li a:hover {
 }
 
 .indoor-activities .description h3 {
-  font-size: 50px;
+  font-size: 5rem;
   font-family: "Merriweather", serif;
   text-transform: uppercase;
   margin-bottom: 50px;
@@ -256,7 +260,7 @@ header nav ul li a:hover {
 }
 
 .indoor-activities .description p {
-  font-size: 30px;
+  font-size: 3rem;
   font-family: "Oswald", sans-serif;
 }
 
@@ -282,7 +286,7 @@ header nav ul li a:hover {
 }
 
 .indoor-activities .description .listes ul li {
-  font-size: 25px;
+  font-size: 2.5rem;
   font-family: "Oswald", sans-serif;
 }
 
@@ -349,7 +353,7 @@ header nav ul li a:hover {
 }
 
 .outdoor-activities .description h3 {
-  font-size: 50px;
+  font-size: 5rem;
   font-family: "Merriweather", serif;
   text-transform: uppercase;
   margin-bottom: 50px;
@@ -359,7 +363,7 @@ header nav ul li a:hover {
 }
 
 .outdoor-activities .description p {
-  font-size: 30px;
+  font-size: 3rem;
   font-family: "Oswald", sans-serif;
 }
 
@@ -385,7 +389,7 @@ header nav ul li a:hover {
 }
 
 .outdoor-activities .description .listes ul li {
-  font-size: 25px;
+  font-size: 2.5rem;
   font-family: "Oswald", sans-serif;
 }
 
@@ -440,13 +444,13 @@ header nav ul li a:hover {
 
 .cards .card1 h4 {
   font-family: "Merriweather", serif;
-  font-size: 30px;
+  font-size: 3rem;
   color: #fff;
 }
 
 .cards .card1 p {
   font-family: "Oswald", sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
   color: #fff;
 }
 
@@ -497,7 +501,7 @@ header nav ul li a:hover {
 
 .cards .card2 h4 {
   font-family: "Merriweather", serif;
-  font-size: 30px;
+  font-size: 3rem;
   color: #fff;
 }
 
@@ -528,12 +532,12 @@ footer .contact {
 
 footer .contact .contact-text h4 {
   font-family: "Merriweather", serif;
-  font-size: 40px;
+  font-size: 4rem;
 }
 
 footer .contact .contact-text h5 {
   font-family: "Oswald", sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 footer .contact .contact-button button {
@@ -547,7 +551,7 @@ footer .contact .contact-button button {
   font-weight: bold;
   cursor: pointer;
   font-family: "Merriweather", serif;
-  font-size: 20px;
+  font-size: 2rem;
   -webkit-transition: 0.8s;
   transition: 0.8s;
 }
@@ -580,13 +584,13 @@ footer .adress ul li {
   margin: 20px;
   color: #fff;
   font-family: "Oswald", sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 footer .adress ul li h5 {
   font-family: "Merriweather", serif;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 footer .adress ul li a {
@@ -616,7 +620,7 @@ footer .mentions {
 footer .mentions h6 {
   color: #fff;
   font-family: "Merriweather", serif;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 
 /* MEDIA QUERIES  ACCUEIL*/
@@ -628,22 +632,22 @@ footer .mentions h6 {
 
 @media screen and (max-width: 1245px) {
   .navbar ul li a {
-    font-size: 25px;
+    font-size: 2.5rem;
   }
   .cards .card1 .logos img {
     width: 100px !important;
   }
   article .description h3 {
-    font-size: 30px !important;
+    font-size: 3rem !important;
   }
   article .description p {
-    font-size: 20px !important;
+    font-size: 2rem !important;
   }
   article .description .liste1,
   article .description .liste2,
   article .description .liste3,
   article .description .liste4 ul li {
-    font-size: 20px !important;
+    font-size: 2rem !important;
   }
 }
 
@@ -659,7 +663,7 @@ footer .mentions h6 {
     margin-bottom: 20px;
   }
   .navbar ul li a {
-    font-size: 20px;
+    font-size: 2rem;
   }
   .vignettes {
     display: -webkit-box;
@@ -673,13 +677,13 @@ footer .mentions h6 {
     width: 100px !important;
   }
   .vignettes ul li h2 {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
   .cards h4 {
-    font-size: 25px !important;
+    font-size: 2.5rem !important;
   }
   .cards p {
-    font-size: 15px !important;
+    font-size: 1.5rem !important;
   }
 }
 
@@ -717,21 +721,21 @@ footer .mentions h6 {
     padding: 2px 5px;
   }
   .contact .contact-text h4 {
-    font-size: 30px !important;
+    font-size: 3rem !important;
   }
   .contact .contact-text h5 {
-    font-size: 15px !important;
+    font-size: 1.5rem !important;
   }
   .contact .contact-button button {
     width: 170px !important;
     height: 50px !important;
-    font-size: 15px !important;
+    font-size: 1.5rem !important;
   }
 }
 
 @media screen and (max-width: 890px) {
   .navbar ul li a {
-    font-size: 17px;
+    font-size: 1.7rem;
   }
   .vignettes {
     margin-top: 200px;
@@ -760,7 +764,7 @@ footer .mentions h6 {
     padding-top: 20px;
   }
   article .listes ul li {
-    font-size: 20px !important;
+    font-size: 2rem !important;
   }
   article .liste1,
   article .liste2 {
@@ -773,7 +777,7 @@ footer .mentions h6 {
     margin-bottom: 300px;
   }
   .mentions h6 {
-    font-size: 10px !important;
+    font-size: 1rem !important;
   }
 }
 
@@ -789,7 +793,7 @@ footer .mentions h6 {
             flex-direction: column;
   }
   .navbar ul li a {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
 }
 
@@ -798,30 +802,30 @@ footer .mentions h6 {
   article .listes .liste2 ul li,
   article .listes .liste3 ul li,
   article .listes .liste4 ul li {
-    font-size: 15px !important;
+    font-size: 1.5rem !important;
   }
   .contact {
     margin-top: 400px;
   }
   .contact .contact-text h4 {
-    font-size: 20px !important;
+    font-size: 2rem !important;
   }
   .contact .contact-text h5 {
-    font-size: 10px !important;
+    font-size: 1rem !important;
   }
   .contact .contact-button button {
     width: 150px !important;
     height: 30px !important;
-    font-size: 10px !important;
+    font-size: 1rem !important;
   }
   .adress a img {
     width: 150px;
   }
   .adress ul li {
-    font-size: 10px !important;
+    font-size: 1rem !important;
   }
   .adress ul li h5 {
-    font-size: 15px !important;
+    font-size: 1.5rem !important;
   }
 }
 
@@ -830,7 +834,7 @@ footer .mentions h6 {
   article .listes .liste2 ul li,
   article .listes .liste3 ul li,
   article .listes .liste4 ul li {
-    font-size: 10px !important;
+    font-size: 1rem !important;
   }
 }
 
@@ -839,13 +843,13 @@ footer .mentions h6 {
     padding: 0;
   }
   .mentions h6 {
-    font-size: 8px !important;
+    font-size: 0.8rem !important;
   }
 }
 
 @media screen and (max-width: 380px) {
   .navbar ul li a {
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: bold;
   }
 }
@@ -905,7 +909,7 @@ footer .mentions h6 {
 
 .who .who-am-i h1 {
   font-family: "Merriweather", serif;
-  font-size: 40px;
+  font-size: 4rem;
   text-transform: uppercase;
   border-bottom: 3px solid #99621e;
   border-radius: 15px;
@@ -914,7 +918,7 @@ footer .mentions h6 {
 
 .who .who-am-i h2 {
   font-family: "Merriweather", serif;
-  font-size: 30px;
+  font-size: 3rem;
   text-transform: uppercase;
   border-bottom: 3px solid #99621e;
   border-radius: 15px;
@@ -923,7 +927,7 @@ footer .mentions h6 {
 
 .who .who-am-i p {
   font-family: "Oswald", sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
   margin-bottom: 50px;
 }
 
@@ -956,7 +960,7 @@ footer .mentions h6 {
 
 .hours .hours-details h3 {
   font-family: "Merriweather", serif;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 /* Certificat dans parallax2 */
@@ -981,14 +985,14 @@ footer .mentions h6 {
 
 #certificate .valeur h4 {
   font-family: "Merriweather", serif;
-  font-size: 40px;
+  font-size: 4rem;
   border-bottom: 3px solid #99621e;
   border-radius: 15px;
 }
 
 #certificate .valeur p {
   font-family: "Oswald", sans-serif;
-  font-size: 25px;
+  font-size: 2.5rem;
 }
 
 /* SECTION ACTIVITÉS, PRODUITS ET SERVICES */
@@ -1007,7 +1011,7 @@ footer .mentions h6 {
 }
 
 .services h4 {
-  font-size: 40px;
+  font-size: 4rem;
   font-family: "Merriweather", serif;
   border-bottom: 3px solid #99621e;
   border-radius: 10px;
@@ -1029,7 +1033,7 @@ footer .mentions h6 {
 
 .services .listing ul li {
   font-family: "Oswald", sans-serif;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 /* PAGE RÉALISATIONS */
@@ -1048,7 +1052,7 @@ footer .mentions h6 {
 
 .rea-title h1 {
   font-family: "Merriweather", serif;
-  font-size: 50px;
+  font-size: 5rem;
   border-bottom: 3px solid #99621e;
   border-radius: 10px;
 }
