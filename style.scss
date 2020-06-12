@@ -930,3 +930,159 @@ footer .mentions {
     }
   }
 }
+
+/* PAGE CONTACT */
+
+/* section commentaire */
+
+.commentaire{
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $bg-article;
+  p{
+    font-family: $text-font;
+    font-size: 2.5rem;
+  }
+}
+
+/* section formulaire de contact */
+
+.contact{
+  border: 10px solid #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: $background;
+  &::before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+  }
+  .container{
+    position: relative;
+    min-width: 1100px;
+    min-height: 550px;
+    display: flex;
+    z-index: 1000;
+    .contact-logo{
+      position: absolute;
+      top: 40px;
+      width: 350px;
+      height: calc(100% - 80px);
+      background: $background;
+      z-index: 1;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 20px 20px rgba(0, 0, 0, 0.6);
+      ul{
+        list-style: none;
+        li{
+          margin: 10px 0;
+          color: #fff;
+          font-size: 1.2rem;
+          a{
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+      }
+    }
+    .contact-form{
+      position: absolute;
+      padding: 70px 50px;
+      background: $bg-article;
+      margin-left: 150px;
+      padding-left: 250px;
+      width: 100%;
+      height: 100%;
+      box-shadow: 0 50px 50px rgba(0, 0, 0, 0.6);
+      h2{
+        font-size: 2.4rem;
+        font-family: $title-font;
+        font-weight: 500;
+      }
+      .form-box{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        .inputBox{
+          position: relative;
+          margin: 0 0 35px 0;
+        }
+        .w50{
+          width: 47%;
+        }
+        .w100{
+          width: 100%;
+        }
+        input, textarea{
+          width: 100% !important;
+          padding: 5px 0;
+          resize: none;
+          font-size: 1.5rem;
+          font-weight: 300;
+          color: #333;
+          background: $bg-article;
+          border: none;
+          border-bottom: 1px solid #777;
+          outline: none;
+          &:focus ~ span{
+            transform: translateY(-20px);
+            font-size: 1.2rem;
+            font-weight: 400;
+            letter-spacing: 1px;
+            color: $links;
+          }
+          &:valid ~ span{
+            transform: translateY(-20px);
+            font-size: 1.2rem;
+            font-weight: 400;
+            letter-spacing: 1px;
+            color: $links;
+          }
+        }
+        textarea{
+          min-height: 120px;
+        }
+        span{
+          position: absolute;
+          font-family: $title-font;
+          left: 0;
+          padding: 5px 0;
+          font-size: 1.5rem;
+          font-weight: 300;
+          color: #333;
+          transition: 0.5s;
+          pointer-events: none;
+        }
+        input[type="submit"]{
+          position: relative;
+          cursor: pointer;
+          background: $background;
+          color: #fff;
+          border: none;
+          border-radius: 15px;
+          max-width: 150px;
+          padding: 12px;
+          font-family: $title-font;
+          &:hover{
+            background: $links;
+          }
+        }
+      }
+    }
+  }
+}
