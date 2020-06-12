@@ -73,14 +73,14 @@
         <section class="rea-photos">
 
             <div class="w3-bar w3-black">
-                <button class="w3-bar-item w3-button active" onclick="openCity('London')">Intérieur</button>
-                <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Exterieur</button>
-                <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Menuiserie</button>
+                <button class="w3-bar-item w3-button active" onclick="openAlbum('Interieur')">Intérieur</button>
+                <button class="w3-bar-item w3-button" onclick="openAlbum('Exterieur')">Exterieur</button>
+                <button class="w3-bar-item w3-button" onclick="openAlbum('Menuiseries')">Menuiserie</button>
             </div>
 
-            <div id="London" class="w3-container w3-display-container city">
+            <div id="Interieur" class="w3-container w3-display-container album">
 
-                <h2>Réalisations Intérieur</h2>
+                <h2>Réalisations Intérieures</h2>
 
                 <div class="row">
 
@@ -120,15 +120,88 @@
 
             </div>
 
-            <div id="Paris" class="w3-container w3-display-container city" style="display:none">
+            <div id="Exterieur" class="w3-container w3-display-container album" style="display:none">
 
-                <h2>Réalisations Extérieur</h2>
+                <h2>Réalisations Extérieures</h2>
+
+                <div class="row">
+
+                    <div class="column">
+
+                        <img src="./images/album/exterieur/pic01.jpeg" alt="">
+                        <img src="./images/album/exterieur/pic11.jpeg" alt="">
+                        <img src="./images/album/exterieur/pic06.jpeg" alt="">
+
+                    </div>
+
+                    <div class="column">
+
+                        <img src="./images/album/exterieur/pic07.jpeg" alt="">
+                        <img src="./images/album/exterieur/pic05.jpeg" alt="">
+                        <img src="./images/album/exterieur/pic03.jpeg" alt="">
+
+
+                    </div>
+
+                    <div class="column">
+
+                        <img src="./images/album/exterieur/pic10.jpeg" alt="">
+                        <img src="./images/album/exterieur/pic09.jpeg" alt="">
+                        <img src="./images/album/exterieur/pic12.jpeg" alt="">
+
+                    </div>
+
+                    <div class="column">
+
+                        <img src="./images/album/exterieur/pic08.jpeg" alt="">
+                        <img src="./images/album/exterieur/pic02.jpeg" alt="">
+                        <img src="./images/album/exterieur/pic04.jpeg" alt="">
+
+                    </div>
+
+                </div>
 
             </div>
 
-            <div id="Tokyo" class="w3-container w3-display-container city" style="display:none">
+            <div id="Menuiseries" class="w3-container w3-display-container album" style="display:none">
 
                 <h2>Les Menuiseries</h2>
+
+                <div class="row">
+
+                    <div class="column">
+
+                        <img src="./images/album/meunuiseries/pic01.jpeg" alt="">
+                        <img src="./images/album/meunuiseries/pic12.jpeg" alt="">
+                        
+                    </div>
+
+                    <div class="column">
+
+                        <img src="./images/album/meunuiseries/pic07.jpeg" alt="">
+                        <img src="./images/album/meunuiseries/pic05.jpeg" alt="">
+                        <img src="./images/album/meunuiseries/pic03.jpeg" alt="">
+
+                    </div>
+
+                    <div class="column">
+
+                        <img src="./images/album/meunuiseries/pic10.jpeg" alt="">
+                        <img src="./images/album/meunuiseries/pic09.jpeg" alt="">
+                        <img src="./images/album/meunuiseries/pic11.jpeg" alt="">
+                        <img src="./images/album/meunuiseries/pic06.jpeg" alt="">
+
+                    </div>
+
+                    <div class="column">
+
+                        <img src="./images/album/meunuiseries/pic08.jpeg" alt="">
+                        <img src="./images/album/meunuiseries/pic02.jpeg" alt="">
+                        <img src="./images/album/meunuiseries/pic04.jpeg" alt="">
+
+                    </div>
+
+                </div>
 
             </div>
 
@@ -184,13 +257,13 @@
     <!--SCRIPT ONGLETS-->
 
     <script>
-        function openCity(cityName) {
+        function openAlbum(albumName) {
             var i;
-            var x = document.getElementsByClassName("city");
+            var x = document.getElementsByClassName("album");
             for (i = 0; i < x.length; i++) {
                 x[i].style.display = "none";
             }
-            document.getElementById(cityName).style.display = "block";
+            document.getElementById(albumName).style.display = "block";
         }
     </script>
 
