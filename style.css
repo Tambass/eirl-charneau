@@ -534,7 +534,7 @@ header nav ul li a:hover {
 
 /* FOOTER */
 /* section contact */
-footer .contact {
+footer .contact1 {
   height: 30vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -546,17 +546,17 @@ footer .contact {
           align-items: center;
 }
 
-footer .contact .contact-text h4 {
+footer .contact1 .contact-text h4 {
   font-family: "Merriweather", serif;
   font-size: 4rem;
 }
 
-footer .contact .contact-text h5 {
+footer .contact1 .contact-text h5 {
   font-family: "Oswald", sans-serif;
   font-size: 2rem;
 }
 
-footer .contact .contact-button button {
+footer .contact1 .contact-button button {
   width: 250px;
   height: 70px;
   border: none;
@@ -572,7 +572,7 @@ footer .contact .contact-button button {
   transition: 0.8s;
 }
 
-footer .contact .contact-button button:hover {
+footer .contact1 .contact-button button:hover {
   background-color: #fa8334;
   color: #247ba0;
 }
