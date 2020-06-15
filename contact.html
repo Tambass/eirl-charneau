@@ -34,7 +34,7 @@
     <header>
 
         <div class="header">
-            <a href="index.html"><img src="./images/logo3.png" alt="logo"></a>
+            <a href="index.html"><img src="#" data-src="./images/logo3.png" alt="logo"></a>
             <h1>Menuiserie CHARNEAU</h1>
             <ul>
                 <li>
@@ -88,7 +88,7 @@
                 <div class="contact-logo">
                     <div>
                         <div class="logo">
-                            <img src="./images/logo3.png" alt="logo">
+                            <img src="#" data-src="./images/logo3.png" alt="logo">
                         </div>
                         <ul>
                             <li><i class="fas fa-home"></i> 3 rue des Abeilles, <br> 85340 OLONNE SUR MER</li>
@@ -151,8 +151,13 @@
 
     </footer>
 
+    
+    <!-- Polyfill pour l'API Intersection Observer -->
+    <script src="intersection-observer-polyfill.js"></script>
 
-
+    <!-- Script pour le Lazy Loading -->
+    <!-- (On peut ajouter "async" ou "defer" en attribut) -->
+    <script src="intersection-observer-script.js"></script>
 
 </body>
 

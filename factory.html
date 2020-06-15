@@ -35,7 +35,7 @@
     <header>
 
         <div class="header">
-            <a href="index.html"><img src="./images/logo3.png" alt="logo"></a>
+            <a href="index.html"><img src="#" data-src="./images/logo3.png" alt="logo"></a>
             <h1>Menuiserie CHARNEAU</h1>
             <ul>
                 <li>
@@ -58,7 +58,7 @@
             </ul>
         </nav>
 
-    </header>   
+    </header>
 
     <!--MAIN-->
 
@@ -67,9 +67,9 @@
         <section class="who">
 
             <div class="album">
-                <img id="pic1" src="./images/chantier.jpg" alt="chantier ossature bois" style="width: 500px;">
-                <img id="pic2" src="./images/charpente-bois.jpg" alt="charpente-bois" style="width: 300px;">
-                <img id="pic3" src="./images/placo.jpg" alt="pose de placo" style="width: 300px;">
+                <img id="pic1" src="#" data-src="./images/chantier.jpg" alt="chantier ossature bois" style="width: 500px;">
+                <img id="pic2" src="#" data-src="./images/charpente-bois.jpg" alt="charpente-bois" style="width: 300px;">
+                <img id="pic3" src="#" data-src="./images/placo.jpg" alt="pose de placo" style="width: 300px;">
             </div>
 
             <div class="who-am-i">
@@ -96,9 +96,9 @@
 
             <div class="bulles">
 
-                <img src="./images/img1.jpg" alt="cuisine">
-                <img src="./images/img2.jpg" alt="machine à bois">
-                <img src="./images/img7.jpg" alt="souche d'arbre">
+                <img src="#" data-src="./images/img1.jpg" alt="cuisine">
+                <img src="#" data-src="./images/img2.jpg" alt="machine à bois">
+                <img src="#" data-src="./images/img7.jpg" alt="souche d'arbre">
 
             </div>
 
@@ -115,7 +115,7 @@
 
         <section id="certificate" class="parallax2">
 
-            <img src="./images/certificate.png" alt="certificate">
+            <img src="#" data-src="./images/certificate.png" alt="certificate">
 
             <div class="valeur">
 
@@ -202,7 +202,7 @@
 
         <section class="adress">
 
-            <a href="index.html"><img src="./images/logo3.png" alt="logo"></a>
+            <a href="index.html"><img src="#" data-src="#" data-src="./images/logo3.png" alt="logo"></a>
 
             <ul>
                 <li>
@@ -228,6 +228,12 @@
     </footer>
 
 
+    <!-- Polyfill pour l'API Intersection Observer -->
+    <script src="intersection-observer-polyfill.js"></script>
+
+    <!-- Script pour le Lazy Loading -->
+    <!-- (On peut ajouter "async" ou "defer" en attribut) -->
+    <script src="intersection-observer-script.js"></script>
 
 
 
