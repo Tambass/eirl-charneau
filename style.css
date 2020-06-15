@@ -246,7 +246,6 @@ header nav ul li a:hover {
           align-items: center;
   background: #e9e9e9;
   border-top: 2px solid #fff;
-  padding-bottom: 50px;
 }
 
 .indoor-activities .description {
@@ -335,7 +334,6 @@ header nav ul li a:hover {
       -ms-flex-align: center;
           align-items: center;
   background: #e9e9e9;
-  padding-bottom: 50px;
 }
 
 .outdoor-activities .image {
@@ -805,6 +803,7 @@ footer .mentions h6 {
         -ms-flex-direction: column;
             flex-direction: column;
     padding-top: 20px;
+    padding-bottom: 50px;
   }
   article .listes ul li {
     font-size: 2rem !important;

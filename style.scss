@@ -200,7 +200,6 @@ header {
   align-items: center;
   background: $bg-article;
   border-top: 2px solid #fff;
-  padding-bottom: 50px;
   .description {
     width: 75%;
     display: flex;
@@ -258,7 +257,6 @@ header {
   display: flex;
   align-items: center;
   background: $bg-article;
-  padding-bottom: 50px;
   .image {
     display: flex;
     align-items: center;
@@ -622,6 +620,7 @@ footer .mentions {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
+    padding-bottom: 50px;
     .listes ul li {
       font-size: 2rem !important;
     }
