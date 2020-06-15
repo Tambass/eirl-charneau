@@ -326,7 +326,7 @@ header {
 .cards {
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   .card1 {
     width: 50%;
     display: flex;
@@ -392,7 +392,8 @@ header {
 /* section contact */
 
 footer .contact1 {
-  height: 30vh;
+  height: 100%;
+  padding: 150px 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -431,7 +432,7 @@ footer .contact1 {
 /* Section coordonnées */
 
 footer .adress {
-  height: 30vh;
+  height: 100%;
   background-color: $background;
   display: flex;
   justify-content: center;
@@ -509,11 +510,20 @@ footer .mentions {
     }
   }
 }
+@media screen and (max-width: 1110px){
+  header h1{
+    font-size: 2rem !important;
+  }
+  .navbar ul li a {
+    font-size: 2rem;
+  }
+}
 @media screen and (max-width: 1085px) {
   .header {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
+    ul{
+      display: flex;
+      flex-direction: column;
+    }   
   }
   .navbar ul li a {
     font-size: 2rem;
@@ -545,7 +555,7 @@ footer .mentions {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 200px;
+
     .card1 {
       width: 100% !important;
       .logos img {
@@ -580,6 +590,19 @@ footer .mentions {
     }
   }
 }
+@media screen and (max-width: 900px){
+  .header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #fff !important;
+    h1{
+      margin-top: -15px;
+      margin-bottom: 20px;
+    }
+  }
+}
 @media screen and (max-width: 890px) {
   .navbar ul li a {
     font-size: 1.7rem;
@@ -607,11 +630,18 @@ footer .mentions {
       margin-bottom: 30px;
     }
   }
+  .contact1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0;
+    text-align: center;
+    h5{
+      margin: 20px 0;
+    }
+  }
 }
 @media screen and (max-width: 840px) {
-  .cards {
-    margin-bottom: 300px;
-  }
   .mentions h6 {
     font-size: 1rem !important;
   }
@@ -637,8 +667,7 @@ footer .mentions {
       }
     }
   }
-  .contact {
-    margin-top: 400px;
+  .contact1 {
     .contact-text {
       h4 {
         font-size: 2rem !important;
@@ -668,6 +697,11 @@ footer .mentions {
   }
 }
 @media screen and (max-width: 570px) {
+  .navbar ul{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+  }
   article .listes {
     .liste1,
     .liste2,
@@ -676,6 +710,14 @@ footer .mentions {
       ul li {
         font-size: 1rem !important;
       }
+    }
+  }
+  .contact1 .contact-text{
+    h4{
+      font-size: 2rem !important;
+    }
+    h5{
+      font-size: 1.5rem !important;
     }
   }
 }

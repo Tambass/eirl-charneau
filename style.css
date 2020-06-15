@@ -434,7 +434,7 @@ header nav ul li a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .cards .card1 {
@@ -535,7 +535,8 @@ header nav ul li a:hover {
 /* FOOTER */
 /* section contact */
 footer .contact1 {
-  height: 30vh;
+  height: 100%;
+  padding: 150px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -579,7 +580,7 @@ footer .contact1 .contact-button button:hover {
 
 /* Section coordonnées */
 footer .adress {
-  height: 30vh;
+  height: 100%;
   background-color: #99621e;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -667,8 +668,17 @@ footer .mentions h6 {
   }
 }
 
+@media screen and (max-width: 1110px) {
+  header h1 {
+    font-size: 2rem !important;
+  }
+  .navbar ul li a {
+    font-size: 2rem;
+  }
+}
+
 @media screen and (max-width: 1085px) {
-  .header {
+  .header ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -676,7 +686,6 @@ footer .mentions h6 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 20px;
   }
   .navbar ul li a {
     font-size: 2rem;
@@ -718,7 +727,6 @@ footer .mentions h6 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 200px;
   }
   .cards .card1 {
     width: 100% !important;
@@ -746,6 +754,25 @@ footer .mentions h6 {
     width: 170px !important;
     height: 50px !important;
     font-size: 1.5rem !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #fff !important;
+  }
+  .header h1 {
+    margin-top: -15px;
+    margin-bottom: 20px;
   }
 }
 
@@ -786,12 +813,26 @@ footer .mentions h6 {
   article .liste2 {
     margin-bottom: 30px;
   }
+  .contact1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 150px 0;
+    text-align: center;
+  }
+  .contact1 h5 {
+    margin: 20px 0;
+  }
 }
 
 @media screen and (max-width: 840px) {
-  .cards {
-    margin-bottom: 300px;
-  }
   .mentions h6 {
     font-size: 1rem !important;
   }
@@ -820,16 +861,13 @@ footer .mentions h6 {
   article .listes .liste4 ul li {
     font-size: 1.5rem !important;
   }
-  .contact {
-    margin-top: 400px;
-  }
-  .contact .contact-text h4 {
+  .contact1 .contact-text h4 {
     font-size: 2rem !important;
   }
-  .contact .contact-text h5 {
+  .contact1 .contact-text h5 {
     font-size: 1rem !important;
   }
-  .contact .contact-button button {
+  .contact1 .contact-button button {
     width: 150px !important;
     height: 30px !important;
     font-size: 1rem !important;
@@ -846,11 +884,27 @@ footer .mentions h6 {
 }
 
 @media screen and (max-width: 570px) {
+  .navbar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 20vh;
+  }
   article .listes .liste1 ul li,
   article .listes .liste2 ul li,
   article .listes .liste3 ul li,
   article .listes .liste4 ul li {
     font-size: 1rem !important;
+  }
+  .contact1 .contact-text h4 {
+    font-size: 2rem !important;
+  }
+  .contact1 .contact-text h5 {
+    font-size: 1.5rem !important;
   }
 }
 
