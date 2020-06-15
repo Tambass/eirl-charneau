@@ -893,6 +893,15 @@ footer .mentions h6 {
             flex-direction: column;
     height: 20vh;
   }
+  .factory .description h3 {
+    font-size: 2rem !important;
+  }
+  .indoor-activities .description h3 {
+    font-size: 2rem !important;
+  }
+  .outdoor-activities .description h3 {
+    font-size: 2rem !important;
+  }
   article .listes .liste1 ul li,
   article .listes .liste2 ul li,
   article .listes .liste3 ul li,
